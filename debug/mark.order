@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Order>
+    <Name>Untitled</Name>
+    <Customer>
+        <Name>Jason</Name>
+        <Phone></Phone>
+        <Address></Address>
+        <MeetDateTime></MeetDateTime>
+        <PercentagePrice>0</PercentagePrice>
+        <Payment>0</Payment>
+    </Customer>
+    <Customer>
+        <Name>Judy</Name>
+        <Phone></Phone>
+        <Address></Address>
+        <MeetDateTime></MeetDateTime>
+        <PercentagePrice>0</PercentagePrice>
+        <Payment>0</Payment>
+    </Customer>
+    <Customer>
+        <Name>Sam</Name>
+        <Phone></Phone>
+        <Address></Address>
+        <MeetDateTime></MeetDateTime>
+        <PercentagePrice>0</PercentagePrice>
+        <Payment>0</Payment>
+    </Customer>
+    <Customer>
+        <Name>Tomlinson</Name>
+        <Phone></Phone>
+        <Address></Address>
+        <MeetDateTime></MeetDateTime>
+        <PercentagePrice>0</PercentagePrice>
+        <Payment>0</Payment>
+    </Customer>
+    <Customer>
+        <Name>ffff</Name>
+        <Phone></Phone>
+        <Address></Address>
+        <MeetDateTime></MeetDateTime>
+        <PercentagePrice>0</PercentagePrice>
+        <Payment>0</Payment>
+    </Customer>
+</Order>

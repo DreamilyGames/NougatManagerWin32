@@ -1,0 +1,2 @@
+H:\Nougat\app\NougatWin32\debug\NougatWin32.exe
+H:\Nougat\app\NougatWin32\debug\NougatWin32.pdb

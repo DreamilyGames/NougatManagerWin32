@@ -1,0 +1,3 @@
+﻿  CMainWindow.cpp
+H:\Nougat\app\NougatWin32\CMainWindow.cpp(201,94): warning C4100: 'deselected': unreferenced formal parameter
+  NougatWin32.vcxproj -> H:\Nougat\app\NougatWin32\debug\NougatWin32.exe

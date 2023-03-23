@@ -1,0 +1,482 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CMainWindow</class>
+ <widget class="QMainWindow" name="CMainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>720</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>CMainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QHBoxLayout" name="horizontalLayout_2">
+    <item>
+     <widget class="QSplitter" name="splitter">
+      <property name="orientation">
+       <enum>Qt::Vertical</enum>
+      </property>
+      <widget class="QWidget" name="widget" native="true">
+       <property name="maximumSize">
+        <size>
+         <width>16777215</width>
+         <height>130</height>
+        </size>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QTabWidget" name="tab_Tools">
+          <widget class="QWidget" name="tab_Tools_p1">
+           <attribute name="title">
+            <string>Tools</string>
+           </attribute>
+           <widget class="QGroupBox" name="tab_Tools_p1_Grp_Order">
+            <property name="geometry">
+             <rect>
+              <x>10</x>
+              <y>0</y>
+              <width>171</width>
+              <height>81</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>Order</string>
+            </property>
+            <widget class="QPushButton" name="tab_Tools_p1_button_NewOrder">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>31</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="resource/NougatResources.qrc">
+               <normaloff>:/MainWnd/TabToolsP1/NewOrder.png</normaloff>:/MainWnd/TabToolsP1/NewOrder.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="tab_Tools_p1_button_OpenOrder">
+             <property name="geometry">
+              <rect>
+               <x>50</x>
+               <y>30</y>
+               <width>31</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="resource/NougatResources.qrc">
+               <normaloff>:/MainWnd/TabToolsP1/OpenOrder.png</normaloff>:/MainWnd/TabToolsP1/OpenOrder.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="tab_Tools_p1_button_SaveOrder">
+             <property name="geometry">
+              <rect>
+               <x>90</x>
+               <y>30</y>
+               <width>31</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="resource/NougatResources.qrc">
+               <normaloff>:/MainWnd/TabToolsP1/SaveOrder.png</normaloff>:/MainWnd/TabToolsP1/SaveOrder.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="tab_Tools_p1_button_SaveAsOrder">
+             <property name="geometry">
+              <rect>
+               <x>130</x>
+               <y>30</y>
+               <width>31</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="resource/NougatResources.qrc">
+               <normaloff>:/MainWnd/TabToolsP1/SaveAsOrder.png</normaloff>:/MainWnd/TabToolsP1/SaveAsOrder.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+            </widget>
+           </widget>
+           <widget class="QGroupBox" name="tab_Tools_p1_Grp_Customer">
+            <property name="geometry">
+             <rect>
+              <x>190</x>
+              <y>0</y>
+              <width>171</width>
+              <height>80</height>
+             </rect>
+            </property>
+            <property name="title">
+             <string>Customer</string>
+            </property>
+            <widget class="QPushButton" name="tab_Tools_p1_button_NewCustomer">
+             <property name="geometry">
+              <rect>
+               <x>10</x>
+               <y>30</y>
+               <width>31</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="resource/NougatResources.qrc">
+               <normaloff>:/MainWnd/TabToolsP1/NewCustomer.png</normaloff>:/MainWnd/TabToolsP1/NewCustomer.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+            <widget class="QPushButton" name="tab_Tools_p1_button_DelCustomer">
+             <property name="geometry">
+              <rect>
+               <x>50</x>
+               <y>30</y>
+               <width>31</width>
+               <height>31</height>
+              </rect>
+             </property>
+             <property name="text">
+              <string/>
+             </property>
+             <property name="icon">
+              <iconset resource="resource/NougatResources.qrc">
+               <normaloff>:/MainWnd/TabToolsP1/DeleteCustomer.png</normaloff>:/MainWnd/TabToolsP1/DeleteCustomer.png</iconset>
+             </property>
+             <property name="iconSize">
+              <size>
+               <width>30</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="flat">
+              <bool>false</bool>
+             </property>
+            </widget>
+           </widget>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QWidget" name="widget_2" native="true">
+       <layout class="QHBoxLayout" name="horizontalLayout_3">
+        <item>
+         <widget class="QSplitter" name="splitter_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+          <widget class="QListView" name="list_Customers">
+           <property name="minimumSize">
+            <size>
+             <width>100</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="maximumSize">
+            <size>
+             <width>400</width>
+             <height>16777215</height>
+            </size>
+           </property>
+          </widget>
+          <widget class="QGroupBox" name="group_CustomerInfo">
+           <property name="minimumSize">
+            <size>
+             <width>600</width>
+             <height>0</height>
+            </size>
+           </property>
+           <property name="title">
+            <string>Info</string>
+           </property>
+           <layout class="QHBoxLayout" name="horizontalLayout_4">
+            <item>
+             <widget class="QWidget" name="widget_CustomerInfo" native="true">
+              <widget class="QLabel" name="label_CusName">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>10</y>
+                 <width>31</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Name</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_CusName">
+               <property name="geometry">
+                <rect>
+                 <x>70</x>
+                 <y>10</y>
+                 <width>201</width>
+                 <height>21</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_CusPhone">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>50</y>
+                 <width>49</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Phone</string>
+               </property>
+              </widget>
+              <widget class="QLineEdit" name="lineEdit_CusPhone">
+               <property name="geometry">
+                <rect>
+                 <x>70</x>
+                 <y>50</y>
+                 <width>201</width>
+                 <height>21</height>
+                </rect>
+               </property>
+               <property name="maxLength">
+                <number>20</number>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_CusAddr">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>90</y>
+                 <width>49</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Address</string>
+               </property>
+              </widget>
+              <widget class="QPlainTextEdit" name="plainTextEdit_CusAddr">
+               <property name="geometry">
+                <rect>
+                 <x>70</x>
+                 <y>90</y>
+                 <width>201</width>
+                 <height>71</height>
+                </rect>
+               </property>
+              </widget>
+              <widget class="QDoubleSpinBox" name="doubleSpinBox_CusPercent">
+               <property name="geometry">
+                <rect>
+                 <x>70</x>
+                 <y>180</y>
+                 <width>62</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <property name="maximum">
+                <double>100.000000000000000</double>
+               </property>
+               <property name="value">
+                <double>100.000000000000000</double>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_CusPercent">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>180</y>
+                 <width>49</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Percent</string>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_CusPayment">
+               <property name="geometry">
+                <rect>
+                 <x>10</x>
+                 <y>220</y>
+                 <width>49</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Payment</string>
+               </property>
+              </widget>
+              <widget class="QComboBox" name="comboBox_CusPayment">
+               <property name="geometry">
+                <rect>
+                 <x>70</x>
+                 <y>220</y>
+                 <width>68</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <item>
+                <property name="text">
+                 <string>Cash</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Alipay</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>Bank</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>PayMe</string>
+                </property>
+               </item>
+               <item>
+                <property name="text">
+                 <string>FPS</string>
+                </property>
+               </item>
+              </widget>
+              <widget class="QLabel" name="label_CusMeetDate">
+               <property name="geometry">
+                <rect>
+                 <x>320</x>
+                 <y>80</y>
+                 <width>71</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Meet Date</string>
+               </property>
+              </widget>
+              <widget class="QCalendarWidget" name="calendarWidget_CusMeetDate">
+               <property name="geometry">
+                <rect>
+                 <x>400</x>
+                 <y>80</y>
+                 <width>256</width>
+                 <height>190</height>
+                </rect>
+               </property>
+               <property name="gridVisible">
+                <bool>true</bool>
+               </property>
+              </widget>
+              <widget class="QLabel" name="label_CusMeetTime">
+               <property name="geometry">
+                <rect>
+                 <x>320</x>
+                 <y>10</y>
+                 <width>71</width>
+                 <height>16</height>
+                </rect>
+               </property>
+               <property name="text">
+                <string>Meet Time</string>
+               </property>
+              </widget>
+              <widget class="QTimeEdit" name="timeEdit_CusMeetTime">
+               <property name="geometry">
+                <rect>
+                 <x>400</x>
+                 <y>10</y>
+                 <width>118</width>
+                 <height>22</height>
+                </rect>
+               </property>
+               <property name="time">
+                <time>
+                 <hour>16</hour>
+                 <minute>0</minute>
+                 <second>0</second>
+                </time>
+               </property>
+              </widget>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources>
+  <include location="resource/NougatResources.qrc"/>
+ </resources>
+ <connections/>
+</ui>

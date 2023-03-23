@@ -1,0 +1,4 @@
+# exclude .pch precompiled headers since they are too big
+*.pch
+
+/.vs/*
